@@ -129,12 +129,26 @@ var textMsg = document.createElement("div");
 textMsg.setAttribute("id","textMsg");
 textMsg.innerHTML = "<p>残り文字数</p>";
 
-textArea.parentElement.insertBefore(textMsg,textArea);
+var parent = textArea.parentElement
+parent.insertBefore(textMsg,textArea);
 
+var remainingTime = 10;
+var timemsg = document.createElement("div");
+parent.insertBefore(timemsg,null);
 
 button.addEventListener("click",function(){
         var form = document.getElementById("form");
         form.style.display = "block";
+
+        var timerId = setInterval(function(){
+                timemsg.innerHTML = "<p>残り時間" + remainingTime + "秒"; 
+                if(remainingTime == 0){
+                        alert("終了");
+                        clearInterval(timerId);
+                }
+                remainingTime--;
+        },1000);
+
 
         
 })
