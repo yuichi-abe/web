@@ -127,7 +127,7 @@ var maxlengthNum = textArea.getAttribute("maxlength");
 
 var textMsg = document.createElement("div");
 textMsg.setAttribute("id","textMsg");
-textMsg.innerHTML = "<p>残り文字数</p>"
+textMsg.innerHTML = "<p>残り文字数</p>";
 
 textArea.parentElement.insertBefore(textMsg,textArea);
 
