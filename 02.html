@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width initial-scale=1" >
+<link rel="stylesheet" type="text/css" href="css/main.css"  >
+<title>配列とオブジェクト</title>
+</head>
+
+<body>
+<!-- <div class="side_menu">
+    eee
+</div> -->
+
+<div class="main_menu">
+    <h1 class="page_title">配列作成</h1>
+        <ul>
+            <div class="list_title"><li >配列は [] で囲む </div> <br>
+                <div class="list_item">
+                    var traficLights = {"赤","青","黄色"}; <br>
+                    console.log(traficLights[0]) → 赤 と表示される <br>
+                </div>
+                <br>
+            </li>
+            <div  class="list_title"> <li>要素の数は 配列変数名.length で求める</div><br>
+                <div class="list_item">
+                    console.log(traficLights.length)  → 3 と表示される｡<br>
+                </div>
+                
+                <br>
+            </li>
+            <div class="list_title"> <li>配列をループで回す </div><br>
+                <div class="list_item">
+                        for(var i =0; i&lt;配列変数名.length; i++){  <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;console.log(配列変数名[i]); <br>
+                        } <br>
+                </div>
+            </li>
+            </li>
+            <div class="list_title"> <li>配列をループで回す </div><br>
+                <div class="list_item">
+                        for(var i =0; i&lt;配列変数名.length; i++){  <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;console.log(配列変数名[i]); <br>
+                        } <br>
+                </div>
+            </li>
+            </li>
+            <div class="list_title"> <li>配列の要素をランダムに取得する</div><br>
+                <div class="list_item">
+                        var drink = drinks[Math.floor(Math.random() * drinks.length)];
+                        <img src="image/配列要素をランダムに取得.PNG" alt="" width="" height="">
+                </div>
+            </li>    
+            
+
+        </ul>
+
+        <br>
+    <h1 class="page_title">オブジェクト作成</h1>
+    <ul>
+        <div class="list_title">
+            <li>オブジェクトは{}で囲って作成する｡
+            </li>
+        </div>
+        <br>
+        <div class="list_item">
+            <img src="image/JavaScriptオブジェクト作成.png" alt="" width="50%" height="50%">
+        </div>
+        <br>
+        <div class="list_item">
+            メソッドも定義できる <br>
+            <pre>
+            メソッド名:function(){ 
+                処理
+            }
+            </pre>
+            
+            <img src="image/オブジェクトにメソッドを定義.PNG" alt="">
+
+        </div>
+
+    </ul>
+    <p><a href="#" onclick="history.back(); return false">戻る</a></p>
+</div>
+<script src="js/02.js"></script>
+</body>
+
+</html>
