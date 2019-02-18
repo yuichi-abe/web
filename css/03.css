@@ -1,0 +1,15 @@
+.disp_none{
+    display: none;
+}
+
+#target_img{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.neko_pictures li{
+    list-style: none;
+    display: inline;
+    
+}
