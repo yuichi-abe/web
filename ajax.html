@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width initial-scale=1" >
+<!-- CDNで読み込む https://code.jquery.com/ -->
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous">
+</script>
+<link rel="stylesheet" type="text/css" href="css/main.css"  >
+<link rel="stylesheet" type="text/css" href="css/ajax.css"  >
+
+<title>ajaxについて</title>
+</head>
+
+<body>
+<!-- <div class="side_menu">
+    eee
+</div> -->
+<h1 class="page_title">ajaxについて</h1>
+<div class="main_menu">
+        
+        <br>
+    <div class="wrapper">
+        <p>ajaxのコード</p>
+        <img class="pict" src="image/ajaxの書き方.PNG" alt="">
+
+    </div>
+
+    
+    <p>zipcode を郵便番号で検索すると､住所情報がjsonで帰ってくる</p>
+    <a href="http://zipcloud.ibsnet.co.jp/api/search?zipcode=1400001" target=”_blank”>http://zipcloud.ibsnet.co.jp/api/search?zipcode=1400001</a>
+    <br>
+    <a href="http://zipcloud.ibsnet.co.jp/doc/api" target="_blank">郵便APIについて</a>
+    <div class="pict"><img src="image/jsonの例.PNG" alt=""></div> 
+    <p>JSONの記述はJavaScriptのオブジェクトと似ているが､プロパティ名は "" で囲んだ文字列にしないといけないルールがある</p>
+    <br>
+
+
+    <p><label for="">郵便番号<input type="text" id="zipcode" size="10"></label>
+        <button id="btn">検索</button>
+    </p>
+    <p><label for="">都道府県<input type="text" id="prefecture" size="10"></label></p>
+    <p><label for="">市区町村<input type="text" id="city" size="10"></label></p>
+    <p><label for="">住所<input type="text" id="address" size="10"></label></p>
+
+
+
+
+
+
+
+
+
+    <p><a href="#" onclick="history.back(); return false" >戻る</a></p>
+
+
+</div>
+
+</div>
+<script src="js/ajax.js"></script>
+</body>
+
+</html>

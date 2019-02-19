@@ -11,40 +11,64 @@
 <body>
 
 <div class="main_menu">
-    <div class="wrapper">
-        <h1 class="page_title">イベントリスナー</h1>
-
-        <ul>
-            <li>
-                <div class="list_title">
-                    イベントリスナー
-                </div>
-            </li>
-            <br>
-            <img src="image/イベントリスナー.PNG" alt="">
-
-        </ul>
-    </div>
-
-    <button id="button">表示する</button>
-
-    <p></p>
-    <br>
-
-    <div class="disp_none" id="neko">
-        <img src="image/neko/ボックスから顔だけだして下を見ているオス猫.jpg" alt="" width="30%" height="30%">
-    </div>
     
+    <h1 class="page_title">イベントリスナー</h1>
+
+    <div class="wrapper">    
+        <h2 class="title">クリックイベントで写真表示する</h2>
+            
+        <br>
+
+
+
+        <div class="click_test">
+            <button id="button01">表示する</button>
+            <div class="disp_none" id="neko">
+                <img src="image/neko/ボックスから顔だけだして下を見ているオス猫.jpg" alt="" width="25%" height="25%">
+            </div>
+        </div>
+
+        <div class="click_test">
+            <img src="image/イベントリスナー.PNG" alt="#">
+        </div>
+
+    </div>
+
+
     <!-- 対象画像はランダムに設定 -->
+<!--     
     <img src="" alt="" id="target_img">
 
     <ul class="neko_pictures">
-        <li><img src="image/neko/あざ笑う子猫.jpg" alt="" width="30%" height="30%" ></li>
-        <li><img src="image/neko/猫エンジニア.jpg" alt="" width="30%" height="30%"></li>
-        <li><img src="image/neko/瞳がうるんだ子猫.jpg" alt="" width="30%" height="30%"></li>
+        <li><img src="image/neko/あざ笑う子猫.jpg" alt="" width="25%" height="25%" ></li>
+        <li><img src="image/neko/猫エンジニア.jpg" alt="" width="25%" height="25%"></li>
+        <li><img src="image/neko/瞳がうるんだ子猫.jpg" alt="" width="25%" height="25%"></li>
     </ul>
+    <br>  -->
+
+
+    <h2 class="title">イベント・ギャラリー作成</h2>
+
+    <p>空のdivを作ってjsで画像を入れ行く</p>
+
+    <div id="gallary">
+        <div class = "main_gallary">
+            <!-- メイン写真の挿入場所 -->
+
+        </div>
+
+        <div class="sub_gallary">
+            <!-- サブ写真の挿入場所 -->
+
+        </div>
+    </div>
 </div>
     
+<br>
+
+
+
+
     <p><a href="#" onclick="history.back(); return false">戻る</a></p>
 </div>
 <script src="js/03.js"></script>

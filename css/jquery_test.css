@@ -1,0 +1,28 @@
+.pict{
+    width: 50%;
+    height: 50%;
+}
+
+#menu *{
+    border:solid 1px #aaa;
+    margin: 0px;
+    padding: 5px;
+    text-align: center;
+    width: 200px;
+}
+
+#menu dd{
+    background-color: #eee;
+    border: solid 1px #7e7a7a;
+    text-align: center;
+    display: none;
+}
+
+#scroll_top{
+    background-color: #eee;
+    bottom: 20px;
+    padding:4px;
+    position: fixed;
+    right: 20px;
+}
+

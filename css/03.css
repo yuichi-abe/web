@@ -1,8 +1,10 @@
+
+
 .disp_none{
     display: none;
 }
 
-#target_img{
+#target_img,.main_gallary{
     display: block;
     text-align: center;
     margin: 0 auto;
@@ -12,4 +14,8 @@
     list-style: none;
     display: inline;
     
+}
+
+.sub_gallary img{
+    border-radius: 500px;
 }
