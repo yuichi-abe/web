@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width initial-scale=1" >
+<link rel="stylesheet" type="text/css" href="css/main.css"  >
+<link rel="stylesheet" type="text/css" href="css/jquery_test.css"  >
+<!-- CDNで読み込む https://code.jquery.com/ -->
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous">
+</script>
+<title>JQueryについて</title>
+</head>
+
+<body>
+<!-- <div class="side_menu">
+    eee
+</div> -->
+
+<div class="main_menu">
+    <div class="wrapper">
+        <h1 class="page_title">JQueryについて</h1>
+        <h2 class="list_title">JQueryの書き方</h2>
+        <p>$(function(){})中の{}カッコ内に処理を書く｡</p>
+        <pre>
+            //HTMLが読み込まれたあとで処理を実行する｡
+            $(function(){
+                //処理を書く
+            })
+        </pre>
+
+        <h2 class="list_title">イベントの処理</h2>
+        <div><img src="image/jqueryイベント処理.PNG" alt=""></div>
+        <div><button id="button01">アラートボタン</button></div>
+        <br>
+
+        <div><img src="image/neko/あざ笑う子猫.jpg" alt="" class="pict" id="targetImg01"></div>
+        <br>
+
+        <h2 class="list_title">スライドトグル</h2>
+        <div>
+            <dl id="menu">
+                <dt>ドリンクメニュー</dt>
+                <dd>烏龍茶</dd>
+                <dd>コーラ</dd>
+                <dd>オレンジジュース</dd>
+                <dd>日本茶</dd>
+            </dl>
+        </div>
+
+        <div>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+        </div>
+        <p id="scroll_top"><a href="#">page top</a></p>
+    </div>
+</div>
+    
+    <p><a href="#" onclick="history.back(); return false">戻る</a></p>
+</div>
+<script src="js/jquery_test.js"></script>
+</body>
+
+</html>
